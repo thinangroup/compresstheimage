@@ -55,3 +55,15 @@ input[type="file"] {
 .head-title{
   font-weight: bold;
 }
+.rules{
+  font-weight: bold;
+  text-align: left;
+  padding-right:10%;
+  padding-left: 10%;
+  text-align: justify;
+}
+.highlight{
+  text-align: left;
+  padding-right:10%;
+  padding-left: 10%;
+}
