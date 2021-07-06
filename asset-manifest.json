@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/compressor/static/css/main.45d9257f.chunk.css",
+    "main.js": "/compressor/static/js/main.972ebbe3.chunk.js",
+    "main.js.map": "/compressor/static/js/main.972ebbe3.chunk.js.map",
+    "runtime-main.js": "/compressor/static/js/runtime-main.87ffdd9e.js",
+    "runtime-main.js.map": "/compressor/static/js/runtime-main.87ffdd9e.js.map",
+    "static/css/2.b73aee8a.chunk.css": "/compressor/static/css/2.b73aee8a.chunk.css",
+    "static/js/2.9ad02bff.chunk.js": "/compressor/static/js/2.9ad02bff.chunk.js",
+    "static/js/2.9ad02bff.chunk.js.map": "/compressor/static/js/2.9ad02bff.chunk.js.map",
+    "static/js/3.da6abd5f.chunk.js": "/compressor/static/js/3.da6abd5f.chunk.js",
+    "static/js/3.da6abd5f.chunk.js.map": "/compressor/static/js/3.da6abd5f.chunk.js.map",
+    "index.html": "/compressor/index.html",
+    "static/css/2.b73aee8a.chunk.css.map": "/compressor/static/css/2.b73aee8a.chunk.css.map",
+    "static/css/main.45d9257f.chunk.css.map": "/compressor/static/css/main.45d9257f.chunk.css.map",
+    "static/js/2.9ad02bff.chunk.js.LICENSE.txt": "/compressor/static/js/2.9ad02bff.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/compressor/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87ffdd9e.js",
+    "static/css/2.b73aee8a.chunk.css",
+    "static/js/2.9ad02bff.chunk.js",
+    "static/css/main.45d9257f.chunk.css",
+    "static/js/main.972ebbe3.chunk.js"
+  ]
+}
