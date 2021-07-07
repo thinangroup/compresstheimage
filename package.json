@@ -1,6 +1,6 @@
 {
-  "homepage": "http://thinangroup.github.io/compressor",
-  "name": "compressor",
+  "homepage": "http://thinangroup.github.io/compresstheimage",
+  "name": "compresstheimage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
