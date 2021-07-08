@@ -13,7 +13,7 @@ function App() {
   const [origImageFile, setorigImageFile] = useState("");
   const [compressImage, setcompressImage] = useState("");
   const [filename, setfilename] = useState("");
-  const [value, setValue] = useState(20/1024);
+  const [value, setValue] = useState(20 / 1024);
 
 
   const handle = (e) => {
@@ -76,10 +76,16 @@ function App() {
                 </Item>
               </Grid.Column>
               <Grid.Column className="compress" width={4}>
-                <div style={{height:"80px",width:"auto"}}></div>
-                <h2></h2>
-                {origImageFile && <Button style={{background:"#1F76F9"}} primary onClick={(e) => handleCompressImage(e)} > Compress Image </Button>}
+
+                <Grid.Row>
+                  {origImageFile && <Button style={{ background: "#1F76F9", align: 'center' }} primary onClick={(e) => handleCompressImage(e)} > Compress Image </Button>}
+                </Grid.Row>
                 
+                <Grid.Row>
+                  <div style={{ height: "40px", width: "auto", align: 'center' }}></div>
+                </Grid.Row>
+                <div id="Google Ad 1"style={{ height: "250px", width: "auto", align: 'center' }}></div>
+
               </Grid.Column>
               <Grid.Column width={6}>
                 <Item><h3 className="head-title">Compressed Image</h3>
@@ -104,19 +110,18 @@ function App() {
           </Grid>
         </Container>
       </div>
-      <div style={{height:"80px",width:"auto"}} ></div>
+      <div style={{ height: "80px", width: "auto" }} ></div>
       <div >
         <h2 className="highlight" >How to compress images?</h2>
         <ul className="rules">
-        <li>Click Upload button and select the file to be compressed.<span style={{fontStyle:"italic",color:"#1F76F9"}} >(JPG, JPEG, PNG, GIF, WEBP)</span></li>
-        <li>Enter the size to be compressed in Kb in the input box. By default the value is 20Kb.</li>
-        <li>Once the required size is entered click Compress button.</li>
-        <li>The compressed image is shown in the compressed image container. Click the download button below to download it.</li>
-        <li style={{fontStyle:"italic",color:"#1F76F9"}} >We won't store any images that you upload/compress in our website</li>
+          <li>Click Upload button and select the file to be compressed.<span style={{ fontStyle: "italic", color: "#1F76F9" }} >(JPG, JPEG, PNG, GIF, WEBP)</span></li>
+          <li>Enter the size to be compressed in Kb in the input box. By default the value is 20Kb.</li>
+          <li>Once the required size is entered click Compress button.</li>
+          <li>The compressed image is shown in the compressed image container. Click the download button below to download it.</li>
+          <li style={{ fontStyle: "italic", color: "#1F76F9" }} >We won't store any images that you upload/compress in our website</li>
         </ul>
       </div>
-    
-      {/* <div class="ui leaderboard test ad" data-text="Leaderboard" style={{align:'center'}}></div> */}
+      <div id='Google Ad 2' style={{margin: '10px', width:'auto', height:'90px' }} data-text="Leaderboard"></div>
       <Footer />
     </div>
   );
